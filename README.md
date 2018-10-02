@@ -1,7 +1,7 @@
 # git-tutorial
 Returning to an Old Revision
 ```
-$ git reset --soft 0ad5a7a6
+$ git reset --hard 0ad5a7a6
 $ git push -f
 ```
 
