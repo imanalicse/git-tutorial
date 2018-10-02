@@ -1,11 +1,24 @@
 # git-tutorial
 
+Git Add commands:
+```
+$ git add .
+$ git add --all
+$ git add file_name
+```
 
 Returning to an Old Revision - Dangerous command
 ```
-$ git reset --hard 0ad5a7a6
-$ git reset --soft 0ad5a7a6
+$ git reset --hard <commit>
+$ git reset --soft <commit>
 ```
+
+To revert to a previous commit, ignoring any changes: where HEAD is the last commit in your current branch
+
+```
+git reset --hard HEAD
+```
+
 
 ```
 $ git push
