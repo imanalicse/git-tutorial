@@ -37,3 +37,19 @@ $ git clean -f
 ```
 
 > Blockquotes are very handy in email to emulate reply text.
+
+Branch commands:
+
+Show all git branches
+```
+$ git branch -a
+```
+Add new branch:
+```
+$ git branch {branch_name}
+$ git checkout {branch_name}
+```
+Get new branch:
+```
+$ git fetch
+```
