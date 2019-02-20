@@ -53,3 +53,13 @@ Get new branch:
 ```
 $ git fetch
 ```
+
+Show git URL:
+```
+git config --get remote.origin.url
+```
+
+Set New git URL:
+```
+git remote set-url origin {git_url}
+```
