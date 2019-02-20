@@ -36,6 +36,7 @@ $ git checkout <commit>
 $ git clean -f
 ```
 
+
 ```
 $ git branch
 $ git branch <branch_name>
@@ -43,3 +44,31 @@ $ git branch -d <branch_name>
 ```
 
 > Blockquotes are very handy in email to emulate reply text.
+=======
+> Blockquotes are very handy in email to emulate reply text.
+
+Branch commands:
+
+Show all git branches
+```
+$ git branch -a
+```
+Add new branch:
+```
+$ git branch {branch_name}
+$ git checkout {branch_name}
+```
+Get new branch:
+```
+$ git fetch
+```
+
+Show git URL:
+```
+git config --get remote.origin.url
+```
+
+Set New git URL:
+```
+git remote set-url origin {git_url}
+```
