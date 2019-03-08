@@ -72,3 +72,11 @@ Set New git URL:
 ```
 git remote set-url origin {git_url}
 ```
+
+> Remove untracked file from git
+```
+git clean -f
+```
+* To remove directories, run:  ```git clean -fd```
+* To remove ignored files, run: ```git clean -fX```
+* To remove ignored and non-ignored files, `git clean -fx`
