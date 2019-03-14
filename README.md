@@ -47,7 +47,7 @@ $ git branch -d <branch_name>
 =======
 > Blockquotes are very handy in email to emulate reply text.
 
-Branch commands:
+__Branch commands:__
 
 Show all git branches
 ```
@@ -58,6 +58,11 @@ Add new branch:
 $ git branch {branch_name}
 $ git checkout {branch_name}
 ```
+Push the branch to remote repository
+```
+git push -u origin {branch_name}
+```
+
 Get new branch:
 ```
 $ git fetch
