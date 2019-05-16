@@ -88,3 +88,11 @@ git clean -f
 
 __revert all local uncommitted changes__
 git checkout .
+
+>Git revert for a single file
+```
+git checkout HEAD -- fileName.ext
+
+git checkout @ -- myfile.ext
+```
+Note that @ is short for HEAD. An older version of git may not support the short form.
