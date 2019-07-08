@@ -96,3 +96,10 @@ git checkout HEAD -- fileName.ext
 git checkout @ -- myfile.ext
 ```
 Note that @ is short for HEAD. An older version of git may not support the short form.
+
+>How to merge a specific commit in Git
+
+You can use git cherry-pick to apply a single commit by itself to your current branch.
+```
+git cherry-pick d42c389f
+```
