@@ -103,3 +103,6 @@ You can use git cherry-pick to apply a single commit by itself to your current b
 ```
 git cherry-pick d42c389f
 ```
+>How to delete a branch
+* Delete branch  locally: ``` git branch -d localBranchName```
+* Delete branch remotely : ``` git push origin -d remoteBranchName```
