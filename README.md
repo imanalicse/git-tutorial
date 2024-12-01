@@ -7,22 +7,6 @@ $ git add --all
 $ git add file_name
 ```
 
-#### To revert a specific file from a previous commit in Git
-`git restore --source=<commit> <path/to/file>`
-
->Returning to an Old Revision - Dangerous command
-```
-$ git reset --hard <commit>
-$ git reset --soft <commit>
-```
-
->To revert to a previous commit, ignoring any changes: where HEAD is the last commit in your current branch
-
-```
-git reset --hard HEAD
-```
-
-
 ```
 $ git push
 $ git push --all
@@ -39,7 +23,6 @@ $ git checkout <commit>
 $ git clean -f
 ```
 
-
 ```
 $ git branch
 $ git branch <branch_name>
@@ -49,27 +32,6 @@ $ git branch -d <branch_name>
 > Blockquotes are very handy in email to emulate reply text.
 =======
 > Blockquotes are very handy in email to emulate reply text.
-
-__Branch commands:__
-
-Show all git branches
-```
-$ git branch -a
-```
-Add new branch:
-```
-$ git branch {branch_name}
-$ git checkout {branch_name}
-```
-Push the branch to remote repository
-```
-git push -u origin {branch_name}
-```
-
-Get new branch:
-```
-$ git fetch
-```
 
 Show git URL:
 ```
