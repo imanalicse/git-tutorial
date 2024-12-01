@@ -7,6 +7,9 @@ $ git add --all
 $ git add file_name
 ```
 
+#### To revert a specific file from a previous commit in Git
+`git restore --source=<commit> <path/to/file>`
+
 >Returning to an Old Revision - Dangerous command
 ```
 $ git reset --hard <commit>
